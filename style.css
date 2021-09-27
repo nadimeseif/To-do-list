@@ -50,6 +50,7 @@ input {
 }
 .done { 
     text-decoration: line-through;
+    text-decoration-color: white;
 }
 li{
     font: 700 16px arial ;
