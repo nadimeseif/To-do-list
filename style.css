@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(255, 126, 95), rgb(254, 180, 123)) repeat scroll 0% 0%;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font: 400 16px arial ;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:40px;
+}
+button{
+    margin:10px 0 0 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 218, 119, 0.5);
+    border: rgb(255, 218, 119);
+    height: 34px;
+    width: 100px;
+    font: 400 13px system-ui;
+    box-shadow:
+                0 0 25px #FEB17A;
+ 
+}
+input {
+    font: 400 15px system-ui;
+    border: none;
+    outline: none;
+    display: inline-block;
+    height: 34px;
+    margin-left:40px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 14px;
+    right: 9px;
+    border-radius: 22px;
+    width: 220px;
+    box-sizing: border-box;
+    padding: 0 18px;
+}
+.done { 
+    text-decoration: line-through;
+}
+li{
+    font: 700 16px arial ;
+}
+.undone { 
+    text-decoration: none;
+}
+
+.li-s{
+    user-select: none;
+}
+.del{
+display: inline-block;
+margin-left:30px;
+width:20px;
+height: 20px;
+background-image: url("free-icon-delete-button.png");
+background-repeat: no-repeat;
+background-size:cover;
+}
